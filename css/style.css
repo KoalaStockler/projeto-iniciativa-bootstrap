@@ -9,3 +9,38 @@
 .iniciais>div>p {
     text-align: justify;
 }
+.tabela>div>p {
+    text-align: justify;
+}
+.type {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 0.9rem;
+  min-width: 60px;
+  text-transform: capitalize;
+  border: 3px solid transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.type-grass {
+  background-color: #78C850;
+  border-color: #4E8234;
+}
+.type-poison {
+  background-color: #A040A0;
+  border-color: #682A68;
+}
+.type-fire {
+  background-color: #F08030;
+  border-color: #9C531F;
+}
+.type-water {
+  background-color: #6890F0;
+  border-color: #445E9C;
+}
+.type-flying {
+  background-color: #A890F0;
+  border-color: #6D5E9C;
+}
