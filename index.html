@@ -14,10 +14,11 @@
 </head>
 
 <body>
+    <!-- Header -->
     <section class="header">
         <main class="text-white px-5 d-flex justify-content-between align-items-center">
             <img src="./img/logo.png" alt="Logo">
-            <nav class="fs-6">
+            <nav class="fs-5">
                 <a href="#" class="text-white me-3 text-decoration-none">Poke</a>
                 <a href="#" class="text-white me-3 text-decoration-none">Inicais</a>
                 <a href="#" class="text-white me-3 text-decoration-none">Gerações</a>
@@ -25,7 +26,7 @@
             </nav>
         </main>
     </section>
-
+    <!-- Carrossel -->
     <section id="carouselExample" class="carousel slide vh-100">
         <div class="carousel-inner h-100">
             <div class="carousel-item active">
@@ -47,13 +48,71 @@
             <span class="visually-hidden">Next</span>
         </button>
     </section>
-
-    <section class="vh-100">
-        <div class="w-50">
-            <img src="./img/all-iniciais.jpg" class="p-3 rounded-4" alt="">
+    <!-- Iniciais -->
+    <section class="d-flex iniciais">
+        <div class="m-5">
+            <img src="./img/all-iniciais.jpg" class="object-fit-contain border rounded-5" alt="">
         </div>
-        <div class="w-50">
-
+        <div class="m-5">
+            <h1 class="fw-bold pb-3">Todos os inicias (Gen 1 á Gen 9)</h1>
+            <p class="fs-4">Os Pokémon iniciais, conhecidos como "starters", são os primeiros companheiros dos
+                treinadores em cada geração e desempenham um papel fundamental na jornada pelo mundo Pokémon. Da Geração
+                1 até a Geração 9, cada uma apresentou três Pokémon iniciais representando os tipos Planta, Fogo e Água.
+                Na Geração 1, temos Bulbasaur, Charmander e Squirtle, os clássicos que marcaram o início da franquia. A
+                Geração 2 trouxe Chikorita, Cyndaquil e Totodile, enquanto a Geração 3 apresentou Treecko, Torchic e
+                Mudkip. Na Geração 4, surgiram Turtwig, Chimchar e Piplup, seguidos por Snivy, Tepig e Oshawott na
+                Geração 5. A Geração 6 revelou Chespin, Fennekin e Froakie, e a Geração 7 trouxe Rowlet, Litten e
+                Popplio. Já a Geração 8 nos apresentou Grookey, Scorbunny e Sobble. Por fim, na Geração 9, conhecemos
+                Sprigatito, Fuecoco e Quaxly. Cada trio carrega características únicas, estilos de batalha distintos e
+                evoluções marcantes que os tornam amados por fãs de todas as idades.</p>
+            <img src="./img/all-iniciais-pixel.webp" class="w-100 mt-5 pt-5" alt="">
+        </div>
+    </section>
+    <!-- Carrossel iniciais -->
+    <section class="container-fluid py-5">
+        <h2 class="text-center mb-4 fw-bold fs-1">Iniciais</h2>
+        <div id="carouselCards" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col d-flex justify-content-end">
+                            <div class="card h-100 text-center">
+                                <a href="https://pokemondb.net/pokedex/bulbasaur" target="_blank"><img src="./img/bulbasaur.png" class="mb-3" alt="Bulbasaur">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Bulbasaur #1</h5>
+                                    <p class="card-text">Conteúdo do card 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <div class="card h-100 text-center">
+                                <a href="https://pokemondb.net/pokedex/charmander" target="_blank"><img src="./img/charmander.png" class="mb-3" alt="Charmander"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Charmander #4</h5>
+                                    <p class="card-text">Conteúdo do card 2.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-start">
+                            <div class="card h-100 text-center">
+                                <a href="https://pokemondb.net/pokedex/squirtle" target="_blank"><img src="./img/squirtle.png" class="mb-3" alt="Squirtle"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Squirtle #7</h5>
+                                    <p class="card-text">Conteúdo do card 3.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais .carousel-item aqui se quiser mais slides -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCards" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
     </section>
 </body>

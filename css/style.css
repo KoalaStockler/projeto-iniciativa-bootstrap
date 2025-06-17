@@ -1,7 +1,11 @@
-*{
+* {
     margin: 0;
     background-color: #6F2CF3;
+    color: white;
 }
-.header img{
+.header img {
     width: 70px;
+}
+.iniciais > div > p {
+    text-align: justify;
 }
