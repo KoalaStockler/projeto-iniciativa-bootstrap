@@ -6,10 +6,7 @@
 .header img {
     width: 70px;
 }
-.iniciais>div>p {
-    text-align: justify;
-}
-.tabela>div>p {
+.iniciais>div>p, .tabela>div>p {
     text-align: justify;
 }
 .type {
